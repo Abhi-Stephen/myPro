@@ -1,5 +1,5 @@
 ```mermaid
-graph TD;
+graph LR;
     A[Data Collection] --> B[Data Augmentation]
     B --> C[Gaussian Noise, Salt-and-Pepper Noise, Affine Transformations]
     C --> D[Data Preparation]
