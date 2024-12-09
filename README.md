@@ -1,9 +1,7 @@
-# Optimized Event Camera Feature Tracking Pipeline
-
-This is a condensed version of the pipeline for noise robustness testing.
+# Optimized Horizontal Event Camera Feature Tracking Pipeline
 
 ```mermaid
-graph TD;
+graph LR;
     A[Dataset] --> B[Data Augmentation]
     B --> C[Gaussian and Salt-and-Pepper Noise]
     C --> D[Affine Transformations]
