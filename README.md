@@ -4,7 +4,7 @@ This is a condensed version of the pipeline for noise robustness testing.
 
 ```mermaid
 graph TD;
-    A[Data Collection] --> B[Data Augmentation]
+    A[Dataset] --> B[Data Augmentation]
     B --> C[Gaussian and Salt-and-Pepper Noise]
     C --> D[Affine Transformations]
     D --> E[Data Preparation]
