@@ -1,5 +1,9 @@
+# Event Camera Feature Tracking Pipeline
+
+This is a high-level pipeline for noise robustness testing in event cameras.
+
 ```mermaid
-graph LR;
+graph TD;
     A[Data Collection] --> B[Data Augmentation]
     B --> C[Gaussian Noise, Salt-and-Pepper Noise, Affine Transformations]
     C --> D[Data Preparation]
