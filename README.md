@@ -1,5 +1,5 @@
 ```mermaid
-graph LR;
+graph TD;
     A[Data Collection] --> B[Data Augmentation]
     B --> C[Gaussian Noise, Salt-and-Pepper Noise, Affine Transformations]
     C --> D[Data Preparation]
@@ -12,3 +12,8 @@ graph LR;
     J --> K[Visualization, Checkpoints]
     K --> L[Final Deliverables]
     L --> M[Augmented Dataset, Trained Model, Evaluation Report, Code Documentation]
+
+    B --> F
+    D --> H
+    G --> J
+    I --> L
