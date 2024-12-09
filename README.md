@@ -12,8 +12,3 @@ graph TD;
     J --> K[Visualization, Checkpoints]
     K --> L[Final Deliverables]
     L --> M[Augmented Dataset, Trained Model, Evaluation Report, Code Documentation]
-
-    B --> F
-    D --> H
-    G --> J
-    I --> L
