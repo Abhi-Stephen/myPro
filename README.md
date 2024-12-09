@@ -16,7 +16,7 @@ graph TD;
     L --> M[Augmented Dataset, Trained Model, Evaluation Report, Code Documentation]
 
     %% Methodology Section
-    A1[Methodology] --> B1[Data Augmentation: Add Gaussian Noise and Salt-and-Pepper Noise (~10%) to Frames]
+    A1[Methodology] --> B1[Data Augmentation: Add Gaussian Noise and Salt-and-Pepper Noise (10%) to Frames]
     B1 --> C1[Apply Affine Transformations: Rotation, Translation, Scaling]
     C1 --> D1[Model Training: Baseline on Clean Data, Fine-tune with Noisy Data]
     D1 --> E1[Use Truncated Loss Function to Mitigate Noise Impact]
